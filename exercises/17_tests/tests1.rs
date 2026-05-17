@@ -16,8 +16,9 @@ mod tests {
 
     #[test]
     fn you_can_assert() {
+        use super::*;
         // TODO: Test the function `is_even` with some values.
-        assert!();
-        assert!();
+        assert!(is_even(2));
+        assert!(!is_even(3));
     }
 }
